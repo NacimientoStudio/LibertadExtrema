@@ -1,0 +1,91 @@
+/* ==========================================================================
+   LIBERTAD EXTREMA - DESIGN SYSTEM & THEME TOKENS
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap');
+
+:root {
+  /* Color Palette - Dark Moto Theme */
+  --bg-deep: #090a0d;
+  --bg-main: #0e1017;
+  --bg-card: #151822;
+  --bg-card-hover: #1c202e;
+  --bg-elevated: #232838;
+  
+  /* Glassmorphism */
+  --glass-bg: rgba(18, 21, 30, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 87, 34, 0.4);
+  --backdrop-blur: blur(16px);
+
+  /* Primary Brand Accent (Flame Orange & Amber) */
+  --primary: #ff5722;
+  --primary-hover: #f4511e;
+  --primary-light: #ff7043;
+  --primary-glow: rgba(255, 87, 34, 0.35);
+  
+  --secondary: #ffb300;
+  --secondary-glow: rgba(255, 179, 0, 0.25);
+
+  /* State Colors (Status Badges) */
+  --status-prevista: #00e676;
+  --status-prevista-bg: rgba(0, 230, 118, 0.12);
+  --status-prevista-border: rgba(0, 230, 118, 0.35);
+
+  --status-finalizada: #29b6f6;
+  --status-finalizada-bg: rgba(41, 182, 246, 0.12);
+  --status-finalizada-border: rgba(41, 182, 246, 0.35);
+
+  --status-cancelada: #ff5252;
+  --status-cancelada-bg: rgba(255, 82, 82, 0.12);
+  --status-cancelada-border: rgba(255, 82, 82, 0.35);
+
+  /* Neutral Text Colors */
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --text-inverse: #0f172a;
+
+  /* Metallic & Chrome Accents */
+  --chrome-light: #e2e8f0;
+  --chrome-mid: #94a3b8;
+  --chrome-gradient: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #64748b 100%);
+  --flame-gradient: linear-gradient(135deg, #ff3d00 0%, #ff6e40 50%, #ffc400 100%);
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 25px var(--primary-glow);
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Layout Widths */
+  --max-width: 1280px;
+  --header-height: 76px;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2f42;
+  border-radius: 5px;
+  border: 2px solid var(--bg-deep);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
