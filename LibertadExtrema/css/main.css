@@ -120,6 +120,7 @@ img, video {
 .brand-logo span.accent {
   background: var(--flame-gradient);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -231,6 +232,7 @@ img, video {
 .hero-title .highlight {
   background: var(--flame-gradient);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
